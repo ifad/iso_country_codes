@@ -422,12 +422,6 @@ class IsoCountryCodes
       self.alpha2  = %q{EE}
       self.alpha3  = %q{EST}
     end
-    class SWZ < Code #:nodoc:
-      self.numeric = %q{748}
-      self.name    = %q{Eswatini}
-      self.alpha2  = %q{SZ}
-      self.alpha3  = %q{SWZ}
-    end
     class ETH < Code #:nodoc:
       self.numeric = %q{231}
       self.name    = %q{Ethiopia}
@@ -794,6 +788,12 @@ class IsoCountryCodes
       self.alpha2  = %q{MO}
       self.alpha3  = %q{MAC}
     end
+    class MKD < Code #:nodoc:
+      self.numeric = %q{807}
+      self.name    = %q{North Macedonia}
+      self.alpha2  = %q{MK}
+      self.alpha3  = %q{MKD}
+    end
     class MDG < Code #:nodoc:
       self.numeric = %q{450}
       self.name    = %q{Madagascar}
@@ -985,12 +985,6 @@ class IsoCountryCodes
       self.name    = %q{Norfolk Island}
       self.alpha2  = %q{NF}
       self.alpha3  = %q{NFK}
-    end
-    class MKD < Code #:nodoc:
-      self.numeric = %q{807}
-      self.name    = %q{North Macedonia}
-      self.alpha2  = %q{MK}
-      self.alpha3  = %q{MKD}
     end
     class MNP < Code #:nodoc:
       self.numeric = %q{580}
@@ -1285,6 +1279,12 @@ class IsoCountryCodes
       self.name    = %q{Svalbard and Jan Mayen}
       self.alpha2  = %q{SJ}
       self.alpha3  = %q{SJM}
+    end
+    class SWZ < Code #:nodoc:
+      self.numeric = %q{748}
+      self.name    = %q{Eswatini}
+      self.alpha2  = %q{SZ}
+      self.alpha3  = %q{SWZ}
     end
     class SWE < Code #:nodoc:
       self.numeric = %q{752}
